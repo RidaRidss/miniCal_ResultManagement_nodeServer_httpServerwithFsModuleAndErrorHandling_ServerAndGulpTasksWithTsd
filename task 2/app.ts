@@ -20,7 +20,7 @@ function Save(){
         tableData[1].innerHTML = nameValue;
     }
     else if (document.getElementById('n')['value'] == Number(document.getElementById('n')['value'])) {
-        var nameValue = "Invalid Name";
+        let nameValue = "Invalid Name";
         alert("error : Please Check Your Ist Value \n Check Error In Below Table");
         tableData[1].innerHTML = nameValue;
     }
@@ -28,12 +28,12 @@ function Save(){
         tableData[1].innerHTML = document.getElementById('n')['value'];
     }
     if (document.getElementById('a')['value'] == '' || document.getElementById('a')['value'] == ' ') {
-        var idValue = "Null value";
+        let idValue = "Null value";
         alert("error : Please Check Your 2nd Value \n Check Error In Below Table");
         tableData[2].innerHTML = idValue;
     }
     else if (document.getElementById('a')['value'] != Number(document.getElementById('a')['value'])) {
-        var idValue = "Invalid Id";
+        let idValue = "Invalid Id";
         alert("error : Please Check Your 2nd Value \n  Check Error In Below Table");
         tableData[2].innerHTML = idValue;
     }
