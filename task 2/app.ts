@@ -15,7 +15,7 @@ function Save(){
     tableRow.appendChild(tableData[2]);
     tableData[0].innerHTML=sno;
     if (document.getElementById('n')['value'] == '' || document.getElementById('n')['value'] == ' ') {
-        var nameValue = "Null value";
+       let nameValue = "Null value";
         alert("error : Please Check Your Ist Input Value \n  Check Error In Below Table");
         tableData[1].innerHTML = nameValue;
     }

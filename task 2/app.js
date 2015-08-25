@@ -20,9 +20,9 @@ function Save() {
         tableData[1].innerHTML = nameValue;
     }
     else if (document.getElementById('n')['value'] == Number(document.getElementById('n')['value'])) {
-        var nameValue_1 = "Invalid Name";
+        var nameValue = "Invalid Name";
         alert("error : Please Check Your Ist Value \n Check Error In Below Table");
-        tableData[1].innerHTML = nameValue_1;
+        tableData[1].innerHTML = nameValue;
     }
     else {
         tableData[1].innerHTML = document.getElementById('n')['value'];
