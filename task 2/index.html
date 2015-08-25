@@ -5,26 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Rida Sarwar Bilgrami"/>
-    <title>Students Enrollment</title>
+    <title>Todo List | Ridssy</title>
+    <link href="css/app.css" type="text/css" rel="stylesheet"/>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <script src="app.js"></script>
 </head>
-<body>
+<body style="background-color:black;">
+<div class="containner">
     <div>
+        <h1 style="font-size:50px; text-align:  center !important; color: blanchedalmond;" >Todo List</h1>
+    </div>
+    <br/>
+    <br/>
+    <div class="form center" id="form"  style="float:left;margin-left:40px;display:block; text-align:center;margin-top: 70px;">
         <table>
             <tr>
-                <th>Student Name:</th>
+                <th class="label">Student Name:</th>
                 <td>
-                    <input placeholder="Student_Name" type="text" >
-                </td>
+                    <input class="input-sm" placeholder="Student_Name" type="text" id="n" ><span style="margin-left:10px;" class="badge">Student Name here</span></td>
             </tr>
-            <tr><td></td></tr>
-            <tr><td></td></tr>
-            <tr>
-                <th>Student Id:</th>
-                <td>
-                    <input placeholder="Student_Id" type="text" >
+            <tr class="btn-group"><td></td><td></td></tr>
+            <tr><td></td><td></td></tr>
+            <tr><td></td><td></td></tr>
+            <tr><th class="label">Student Id:</th>
+                <td><input class="input-sm" placeholder="Student_Id" type="text" id="a" ><span style="margin-left:10px;" class="badge">Student Id here</span></td>
+            </tr>
+            <tr class="btn-group"><td></td><td></td></tr>
+                <tr class="label">
+                <td class="none"></td>
+                <td class="none"></td>
+                <td class="none"></td>
+                <td class="none">
+                    <button class="btn btn-2 btn-2e btn-sm" value="Save" onclick="Save()">Save</button>
                 </td>
             </tr>
         </table>
     </div>
+    <h2>
+        <br>
+        <div id="resultDiv" style="float: right;margin-right: 40px;">
+            <h1 id="result">Check Your Result Here</h1>
+            <table style="text-align:center;" class="table table-hover table-bordered" id="student" ><thead><th class="th">sr#</th><th class="th">Student Name:</th><th class="th">Student Id</th></table></div></h2>
+</div>
 </body>
 </html>
