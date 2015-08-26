@@ -1,5 +1,5 @@
+var sno = 0;
 function Save() {
-    var sno = 0;
     var a;
     var tableData = [];
     var table;

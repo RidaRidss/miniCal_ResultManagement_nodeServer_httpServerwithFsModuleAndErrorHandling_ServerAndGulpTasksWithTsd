@@ -1,5 +1,5 @@
+let sno :number = 0;
 function Save(){
-    let sno :number = 0;
     let a;
     let tableData = [];
     let table;
