@@ -1,0 +1,4 @@
+/**
+ * Created by Rida on 8/28/2015.
+ */
+var server = require('http');var fs = require('fs');server.createServer(function(req,res){console.log("you can visit : \n \n");console.log("To visit current page back => http://127.0.0.1:3000/\n \n");console.log("To visit Home go to this url => http://127.0.0.1:3000/home\n \n");console.log(req.url);if(req.url == "/"){fs.readFile('index.html', function (er, data) {     if (er) {     res.end(er.toString());     return; }     res.end(data.toString()); }); } else if(req.url == "/home"){     fs.readFile('home_page.html',function(er,data){     if (er) {     res.end(er.toString());     return; }     res.end(data.toString()); }); } else if(req.url == "/contact"){     fs.readFile('contact_page.html',function(er,data){     if (er) {     res.end(er.toString());     return; }     res.end(data.toString()); }); } else {     res.end("<h1>Invalid Page</h1>"); }}).listen(3000);
