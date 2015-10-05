@@ -1,4 +1,6 @@
-Task 1 : Mini Calculator																																																																																																																				
+Task 1 : Mini Calculator		
+
+
 Task 2 :  Student Result Management System                                                                                        
 
 Task 3 : 
