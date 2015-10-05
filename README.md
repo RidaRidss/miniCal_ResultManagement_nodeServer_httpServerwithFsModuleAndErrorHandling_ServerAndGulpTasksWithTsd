@@ -6,13 +6,13 @@
 
 #Task 3 : 
                     
-#1)  Simple Node Server 
+#3a)  Simple Node Server 
                                     
 
-#2) Http Serving with  File System error handling 
+#3b) Http Serving with  File System error handling 
                                                             
-#3) Tsd Practice 
+#3c) Tsd Practice 
                                                             
-(a) Gulp Task to write tsd file 
+#3c(a) Gulp Task to write tsd file 
 
-(b) write http server using tsd 
+#3c(b) write http server using tsd 
