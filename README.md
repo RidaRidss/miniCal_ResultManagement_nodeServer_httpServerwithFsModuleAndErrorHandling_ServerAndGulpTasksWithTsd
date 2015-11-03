@@ -6,12 +6,12 @@
 
 #Task 3 : 
                     
-###3a)  Simple Node Server 
+###3a)  Simple Node Server :satellite:
                                     
 
-###3b) Http Serving with  File System error handling 
+###3b) Http Serving with  File System error handling :grey_question: :grey_exclamation: 
                                                             
-###3c) Tsd Practice  :note_book:
+###3c) Tsd Practice :note_book:
                                                             
 ####3c(a) Gulp Task to write tsd file :memo:
 
